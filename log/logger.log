@@ -1,0 +1,121 @@
+2024-11-12T10:57:31.122+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] d.c.H.HpEmployeeConnectApplication       : Starting HpEmployeeConnectApplication using Java 22.0.1 with PID 13896 (C:\Users\ETC\Desktop\Mag_portfolio\HP-EmployeeConnect\target\classes started by ETC in C:\Users\ETC\Desktop\Mag_portfolio\HP-EmployeeConnect)
+2024-11-12T10:57:31.228+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] d.c.H.HpEmployeeConnectApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-11-12T10:57:31.378+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-12T10:57:31.378+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-12T10:57:33.944+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-12T10:57:34.092+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131 ms. Found 1 JPA repository interface.
+2024-11-12T10:57:36.017+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-12T10:57:36.141+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-12T10:57:36.141+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-12T10:57:36.374+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-12T10:57:36.374+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4996 ms
+2024-11-12T10:57:38.037+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-12T10:57:38.323+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-12T10:57:38.432+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-12T10:57:39.559+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-12T10:57:39.659+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-12T10:57:40.249+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a1f5463
+2024-11-12T10:57:40.249+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-12T10:57:51.551+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-12T10:57:51.964+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-12T10:57:57.464+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-12T10:57:57.799+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2024-11-12T10:57:58.681+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-12T10:57:58.759+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] d.c.H.HpEmployeeConnectApplication       : Started HpEmployeeConnectApplication in 28.773 seconds (process running for 33.982)
+2024-11-12T10:58:39.903+01:00  INFO 13896 --- [HP-EmployeeConnect] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-12T10:58:39.904+01:00  INFO 13896 --- [HP-EmployeeConnect] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-12T10:58:39.912+01:00  INFO 13896 --- [HP-EmployeeConnect] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2024-11-12T11:06:13.370+01:00  INFO 13896 --- [HP-EmployeeConnect] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-11-12T11:06:13.417+01:00  INFO 13896 --- [HP-EmployeeConnect] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-12T11:06:13.433+01:00  INFO 13896 --- [HP-EmployeeConnect] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-12T11:06:13.451+01:00  INFO 13896 --- [HP-EmployeeConnect] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-12T11:06:13.703+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] d.c.H.HpEmployeeConnectApplication       : Starting HpEmployeeConnectApplication using Java 22.0.1 with PID 13896 (C:\Users\ETC\Desktop\Mag_portfolio\HP-EmployeeConnect\target\classes started by ETC in C:\Users\ETC\Desktop\Mag_portfolio\HP-EmployeeConnect)
+2024-11-12T11:06:13.703+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] d.c.H.HpEmployeeConnectApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-11-12T11:06:14.855+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-12T11:06:14.871+01:00  WARN 13896 --- [HP-EmployeeConnect] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.TypeNotPresentException: Type dev.charles.HP_EmployeeConnect.entity.Employee not present
+2024-11-12T11:06:14.905+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-12T11:06:14.971+01:00 ERROR 13896 --- [HP-EmployeeConnect] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type dev.charles.HP_EmployeeConnect.entity.Employee not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:116) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68) ~[na:na]
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138) ~[na:na]
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117) ~[na:na]
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95) ~[na:na]
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1336) ~[na:na]
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:517) ~[spring-core-6.1.13.jar:6.1.13]
+	at org.springframework.core.ResolvableType.as(ResolvableType.java:465) ~[spring-core-6.1.13.jar:6.1.13]
+	at org.springframework.data.util.TypeDiscoverer.getSuperTypeInformation(TypeDiscoverer.java:256) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.util.ClassTypeInformation.getSuperTypeInformation(ClassTypeInformation.java:36) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.util.TypeInformation.getRequiredSuperTypeInformation(TypeInformation.java:327) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.DefaultRepositoryMetadata.<init>(DefaultRepositoryMetadata.java:55) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.getMetadata(AbstractRepositoryMetadata.java:77) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:91) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:168) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:62) ~[spring-boot-autoconfigure-3.3.4.jar:3.3.4]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:376) ~[spring-context-6.1.13.jar:6.1.13]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:375) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:429) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at dev.charles.HP_EmployeeConnect.HpEmployeeConnectApplication.main(HpEmployeeConnectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.4.jar:3.3.4]
+Caused by: java.lang.ClassNotFoundException: dev.charles.HP_EmployeeConnect.entity.Employee
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:529) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:508) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.3.4.jar:3.3.4]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:529) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:508) ~[na:na]
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:113) ~[na:na]
+	... 39 common frames omitted
+
+2024-11-12T11:06:18.533+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] d.c.H.HpEmployeeConnectApplication       : Starting HpEmployeeConnectApplication using Java 22.0.1 with PID 13896 (C:\Users\ETC\Desktop\Mag_portfolio\HP-EmployeeConnect\target\classes started by ETC in C:\Users\ETC\Desktop\Mag_portfolio\HP-EmployeeConnect)
+2024-11-12T11:06:18.533+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] d.c.H.HpEmployeeConnectApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-11-12T11:06:19.681+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-12T11:06:19.700+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-11-12T11:06:20.208+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-12T11:06:20.208+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-12T11:06:20.208+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-12T11:06:20.255+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-12T11:06:20.255+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1722 ms
+2024-11-12T11:06:20.630+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-12T11:06:20.646+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-12T11:06:20.677+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-12T11:06:20.677+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-11-12T11:06:20.786+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@4f315074
+2024-11-12T11:06:20.786+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-11-12T11:06:20.958+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-12T11:06:21.021+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-12T11:06:23.157+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-12T11:06:23.173+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2024-11-12T11:06:23.220+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-12T11:06:23.236+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] d.c.H.HpEmployeeConnectApplication       : Started HpEmployeeConnectApplication in 4.781 seconds (process running for 538.457)
+2024-11-12T11:06:23.236+01:00  INFO 13896 --- [HP-EmployeeConnect] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-12T11:07:47.823+01:00  INFO 13896 --- [HP-EmployeeConnect] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-12T11:07:47.823+01:00  INFO 13896 --- [HP-EmployeeConnect] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-11-12T11:07:47.839+01:00  INFO 13896 --- [HP-EmployeeConnect] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
